@@ -1,0 +1,12 @@
+{
+    "name": "kungfunguyen/laravelnewsletter",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nguyen-tam",
+            "email": "contact@kungfunguyen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

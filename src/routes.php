@@ -1,5 +1,3 @@
 <?php
 
-Route::get('hello', function(){
-	echo 'Hello from the laravel newsletter package!';
-});
+Route::get('newsletter/list', 'Kungfunguyen\Laravelnewsletter\NewsletterController@index');

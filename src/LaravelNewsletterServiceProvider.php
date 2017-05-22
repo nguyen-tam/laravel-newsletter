@@ -24,6 +24,7 @@ class LaravelNewsletterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->make('Kungfunguyen\Laravelnewsletter\NewsletterController');
+        $this->loadViewsFrom(__DIR__.'/views', 'newsletter');
     }
 }
